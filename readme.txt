@@ -12,10 +12,7 @@ A Microsoft Teams channel set up with a webhook URL for notifications.
 Installation
 No installation is required for the script itself, but you may need to set up PowerShell and the Azure PowerShell module on your machine:
 
-Download and install PowerShell from the official website.
-Install the Azure PowerShell module by running: Install-Module -Name Az -AllowClobber -Scope CurrentUser.
-Clone or download this script to your local machine or Azure Cloud Shell.
-Usage
+Modules that necessary: Az, Az.Consumption, Microsoft.Graph.
 Open PowerShell and navigate to the directory containing the EventGridProcessor.ps1 script.
 Run the script using the following command: ./EventGridProcessor.ps1.
 The script will automatically listen for Event Grid events and process them as configured.
